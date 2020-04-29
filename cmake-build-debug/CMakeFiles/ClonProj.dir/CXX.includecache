@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClonProj/main.cpp
+iostream
+-
+iomanip
+-
+string
+-
+stdlib.h
+-
+myclass/stu.h
+E:/ClonProj/myclass/stu.h
+myclass/teacher.h
+E:/ClonProj/myclass/teacher.h
+
+E:/ClonProj/myclass/stu.cpp
+stu.h
+E:/ClonProj/myclass/stu.h
+
+E:/ClonProj/myclass/stu.h
+ostream
+-
+
+E:/ClonProj/myclass/teacher.cpp
+teacher.h
+E:/ClonProj/myclass/teacher.h
+
+E:/ClonProj/myclass/teacher.h
+iostream
+-
+string
+-
+
