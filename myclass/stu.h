@@ -34,7 +34,7 @@ public :
     int getTall() const;
 
     void setTall(int tall);
-
+    friend ostream &operator<<(ostream &os, const stu &stu);
     string hobby;
     string age;
     int tall;

@@ -24,5 +24,7 @@ int main() {
     cout << "身高：" << student.getTall() << "米" << endl;
     cout << "年龄：" << student.getAge() << endl;
     cout << "爱好：" << student.getHobby() << endl;
+    std:: cout << teacher<<endl;
+    cout<< student<<endl;
     return 0;
 }

@@ -45,3 +45,7 @@ const string &stu::getAge() const {
 void stu::setAge(const string &age) {
     stu::age = age;
 }
+ostream &operator<<(ostream &os, const stu &stu) {
+    os << "name: " << stu.name << " hobby: " << stu.hobby << " age: " << stu.age << " tall: " << stu.tall;
+    return os;
+}
