@@ -149,6 +149,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\ClonProj.dir\build.make CMakeFiles/ClonProj.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+myclass/person.obj: myclass/person.cpp.obj
+
+.PHONY : myclass/person.obj
+
+# target to build an object file
+myclass/person.cpp.obj:
+	$(MAKE) -f CMakeFiles\ClonProj.dir\build.make CMakeFiles/ClonProj.dir/myclass/person.cpp.obj
+.PHONY : myclass/person.cpp.obj
+
+myclass/person.i: myclass/person.cpp.i
+
+.PHONY : myclass/person.i
+
+# target to preprocess a source file
+myclass/person.cpp.i:
+	$(MAKE) -f CMakeFiles\ClonProj.dir\build.make CMakeFiles/ClonProj.dir/myclass/person.cpp.i
+.PHONY : myclass/person.cpp.i
+
+myclass/person.s: myclass/person.cpp.s
+
+.PHONY : myclass/person.s
+
+# target to generate assembly for a file
+myclass/person.cpp.s:
+	$(MAKE) -f CMakeFiles\ClonProj.dir\build.make CMakeFiles/ClonProj.dir/myclass/person.cpp.s
+.PHONY : myclass/person.cpp.s
+
+myclass/shitman.obj: myclass/shitman.cpp.obj
+
+.PHONY : myclass/shitman.obj
+
+# target to build an object file
+myclass/shitman.cpp.obj:
+	$(MAKE) -f CMakeFiles\ClonProj.dir\build.make CMakeFiles/ClonProj.dir/myclass/shitman.cpp.obj
+.PHONY : myclass/shitman.cpp.obj
+
+myclass/shitman.i: myclass/shitman.cpp.i
+
+.PHONY : myclass/shitman.i
+
+# target to preprocess a source file
+myclass/shitman.cpp.i:
+	$(MAKE) -f CMakeFiles\ClonProj.dir\build.make CMakeFiles/ClonProj.dir/myclass/shitman.cpp.i
+.PHONY : myclass/shitman.cpp.i
+
+myclass/shitman.s: myclass/shitman.cpp.s
+
+.PHONY : myclass/shitman.s
+
+# target to generate assembly for a file
+myclass/shitman.cpp.s:
+	$(MAKE) -f CMakeFiles\ClonProj.dir\build.make CMakeFiles/ClonProj.dir/myclass/shitman.cpp.s
+.PHONY : myclass/shitman.cpp.s
+
 myclass/stu.obj: myclass/stu.cpp.obj
 
 .PHONY : myclass/stu.obj
@@ -215,6 +269,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... myclass/person.obj
+	@echo ... myclass/person.i
+	@echo ... myclass/person.s
+	@echo ... myclass/shitman.obj
+	@echo ... myclass/shitman.i
+	@echo ... myclass/shitman.s
 	@echo ... myclass/stu.obj
 	@echo ... myclass/stu.i
 	@echo ... myclass/stu.s

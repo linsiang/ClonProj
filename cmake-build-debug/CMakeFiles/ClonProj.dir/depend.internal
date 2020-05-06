@@ -3,8 +3,17 @@
 
 CMakeFiles/ClonProj.dir/main.cpp.obj
  E:/ClonProj/main.cpp
+ E:/ClonProj/myclass/person.h
+ E:/ClonProj/myclass/shitman.h
  E:/ClonProj/myclass/stu.h
  E:/ClonProj/myclass/teacher.h
+CMakeFiles/ClonProj.dir/myclass/person.cpp.obj
+ E:/ClonProj/myclass/person.cpp
+ E:/ClonProj/myclass/person.h
+CMakeFiles/ClonProj.dir/myclass/shitman.cpp.obj
+ E:/ClonProj/myclass/person.h
+ E:/ClonProj/myclass/shitman.cpp
+ E:/ClonProj/myclass/shitman.h
 CMakeFiles/ClonProj.dir/myclass/stu.cpp.obj
  E:/ClonProj/myclass/stu.cpp
  E:/ClonProj/myclass/stu.h

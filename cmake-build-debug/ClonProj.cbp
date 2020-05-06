@@ -83,6 +83,18 @@
 		<Unit filename="E:/ClonProj/main.cpp">
 			<Option target="ClonProj"/>
 		</Unit>
+		<Unit filename="E:/ClonProj/myclass/person.cpp">
+			<Option target="ClonProj"/>
+		</Unit>
+		<Unit filename="E:/ClonProj/myclass/person.h">
+			<Option target="ClonProj"/>
+		</Unit>
+		<Unit filename="E:/ClonProj/myclass/shitman.cpp">
+			<Option target="ClonProj"/>
+		</Unit>
+		<Unit filename="E:/ClonProj/myclass/shitman.h">
+			<Option target="ClonProj"/>
+		</Unit>
 		<Unit filename="E:/ClonProj/myclass/stu.cpp">
 			<Option target="ClonProj"/>
 		</Unit>

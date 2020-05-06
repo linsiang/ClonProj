@@ -3,4 +3,4 @@ project(ClonProj)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ClonProj main.cpp myclass/stu.cpp myclass/stu.h myclass/teacher.cpp myclass/teacher.h)
+add_executable(ClonProj main.cpp myclass/stu.cpp myclass/stu.h myclass/teacher.cpp myclass/teacher.h myclass/person.cpp myclass/person.h myclass/shitman.cpp myclass/shitman.h)

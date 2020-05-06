@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/ClonProj/main.cpp" "E:/ClonProj/cmake-build-debug/CMakeFiles/ClonProj.dir/main.cpp.obj"
+  "E:/ClonProj/myclass/person.cpp" "E:/ClonProj/cmake-build-debug/CMakeFiles/ClonProj.dir/myclass/person.cpp.obj"
+  "E:/ClonProj/myclass/shitman.cpp" "E:/ClonProj/cmake-build-debug/CMakeFiles/ClonProj.dir/myclass/shitman.cpp.obj"
   "E:/ClonProj/myclass/stu.cpp" "E:/ClonProj/cmake-build-debug/CMakeFiles/ClonProj.dir/myclass/stu.cpp.obj"
   "E:/ClonProj/myclass/teacher.cpp" "E:/ClonProj/cmake-build-debug/CMakeFiles/ClonProj.dir/myclass/teacher.cpp.obj"
   )

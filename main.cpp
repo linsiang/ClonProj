@@ -1,9 +1,10 @@
-#include <iostream>
-#include <iomanip>
-#include <string>
-#include <stdlib.h>
+#include "myclass/shitman.h"
 #include "myclass/stu.h"
-#include  "myclass/teacher.h"
+#include "myclass/teacher.h"
+#include <iomanip>
+#include <iostream>
+#include <stdlib.h>
+#include <string>
 
 using namespace std;
 
@@ -26,5 +27,9 @@ int main() {
     cout << "爱好：" << student.getHobby() << endl;
     std:: cout << teacher<<endl;
     cout<< student<<endl;
+    shitman shit ;
+    shit.setEatShift("胡十万每天都要吃一顿的屎！");
+    cout << shit.getEatShift()<<endl;
+
     return 0;
 }
